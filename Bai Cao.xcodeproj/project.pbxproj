@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8135DDC828BB573A00DCB57E /* LandingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8135DDC728BB573A00DCB57E /* LandingPage.swift */; };
+		8135DDCA28BB603A00DCB57E /* LandingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8135DDC928BB603A00DCB57E /* LandingPageView.swift */; };
+		81605AD328BCAC55009A0C0C /* BGMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 81605AD228BCAC55009A0C0C /* BGMusic.mp3 */; };
+		81605AD528BCAD73009A0C0C /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81605AD428BCAD73009A0C0C /* AudioManager.swift */; };
+		81605AD728BCB6A5009A0C0C /* deal-card.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 81605AD628BCB6A5009A0C0C /* deal-card.mp3 */; };
+		81605AD928BCBD67009A0C0C /* reshuffle-card.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 81605AD828BCBD67009A0C0C /* reshuffle-card.mp3 */; };
+		81CC962728BB5516009A5862 /* Bai_CaoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CC962628BB5516009A5862 /* Bai_CaoApp.swift */; };
+		81CC962928BB5516009A5862 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CC962828BB5516009A5862 /* ContentView.swift */; };
+		81CC962B28BB5516009A5862 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81CC962A28BB5516009A5862 /* Assets.xcassets */; };
+		81CC962E28BB5516009A5862 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81CC962D28BB5516009A5862 /* Preview Assets.xcassets */; };
+		81CC963628BB5565009A5862 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CC963528BB5565009A5862 /* GameView.swift */; };
+		81CC963828BB5577009A5862 /* HowToPlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CC963728BB5577009A5862 /* HowToPlayView.swift */; };
+		81CC963A28BB55A2009A5862 /* LeaderBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CC963928BB55A2009A5862 /* LeaderBoardView.swift */; };
+		81CC963D28BB55B9009A5862 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CC963C28BB55B9009A5862 /* Modifiers.swift */; };
+		81CC963F28BB55BD009A5862 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CC963E28BB55BD009A5862 /* PlaySound.swift */; };
+		81CC964428BB5643009A5862 /* spin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 81CC964328BB5643009A5862 /* spin.mp3 */; };
+		81CC964628BB5647009A5862 /* blink.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 81CC964528BB5647009A5862 /* blink.mp3 */; };
+		81CC964828BB564A009A5862 /* winning.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 81CC964728BB564A009A5862 /* winning.mp3 */; };
+		81CC964A28BB564C009A5862 /* gameover.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 81CC964928BB564C009A5862 /* gameover.mp3 */; };
+		81CC964C28BB564F009A5862 /* highscore.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 81CC964B28BB564F009A5862 /* highscore.mp3 */; };
+		81CC965028BB5654009A5862 /* drum-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 81CC964F28BB5654009A5862 /* drum-music.mp3 */; };
+		81CC965228BB5656009A5862 /* ring-up.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 81CC965128BB5656009A5862 /* ring-up.mp3 */; };
+		81CC965428BB5659009A5862 /* bet-chip.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 81CC965328BB5659009A5862 /* bet-chip.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8135DDC728BB573A00DCB57E /* LandingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPage.swift; sourceTree = "<group>"; };
+		8135DDC928BB603A00DCB57E /* LandingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageView.swift; sourceTree = "<group>"; };
+		81605AD228BCAC55009A0C0C /* BGMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BGMusic.mp3; sourceTree = "<group>"; };
+		81605AD428BCAD73009A0C0C /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		81605AD628BCB6A5009A0C0C /* deal-card.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "deal-card.mp3"; sourceTree = "<group>"; };
+		81605AD828BCBD67009A0C0C /* reshuffle-card.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "reshuffle-card.mp3"; sourceTree = "<group>"; };
+		81CC962328BB5516009A5862 /* Bai Cao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bai Cao.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81CC962628BB5516009A5862 /* Bai_CaoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bai_CaoApp.swift; sourceTree = "<group>"; };
+		81CC962828BB5516009A5862 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		81CC962A28BB5516009A5862 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81CC962D28BB5516009A5862 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		81CC963528BB5565009A5862 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		81CC963728BB5577009A5862 /* HowToPlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToPlayView.swift; sourceTree = "<group>"; };
+		81CC963928BB55A2009A5862 /* LeaderBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderBoardView.swift; sourceTree = "<group>"; };
+		81CC963C28BB55B9009A5862 /* Modifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
+		81CC963E28BB55BD009A5862 /* PlaySound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		81CC964328BB5643009A5862 /* spin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = spin.mp3; sourceTree = "<group>"; };
+		81CC964528BB5647009A5862 /* blink.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = blink.mp3; sourceTree = "<group>"; };
+		81CC964728BB564A009A5862 /* winning.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = winning.mp3; sourceTree = "<group>"; };
+		81CC964928BB564C009A5862 /* gameover.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gameover.mp3; sourceTree = "<group>"; };
+		81CC964B28BB564F009A5862 /* highscore.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = highscore.mp3; sourceTree = "<group>"; };
+		81CC964F28BB5654009A5862 /* drum-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "drum-music.mp3"; sourceTree = "<group>"; };
+		81CC965128BB5656009A5862 /* ring-up.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ring-up.mp3"; sourceTree = "<group>"; };
+		81CC965328BB5659009A5862 /* bet-chip.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bet-chip.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81CC962028BB5516009A5862 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81CC961A28BB5516009A5862 = {
+			isa = PBXGroup;
+			children = (
+				81CC962528BB5516009A5862 /* Bai Cao */,
+				81CC962428BB5516009A5862 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81CC962428BB5516009A5862 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81CC962328BB5516009A5862 /* Bai Cao.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81CC962528BB5516009A5862 /* Bai Cao */ = {
+			isa = PBXGroup;
+			children = (
+				81CC962628BB5516009A5862 /* Bai_CaoApp.swift */,
+				81CC963428BB5546009A5862 /* Views */,
+				81CC963B28BB55AD009A5862 /* Helpers */,
+				81CC964228BB563B009A5862 /* Sounds */,
+				81CC962828BB5516009A5862 /* ContentView.swift */,
+				81CC962A28BB5516009A5862 /* Assets.xcassets */,
+				81CC962C28BB5516009A5862 /* Preview Content */,
+			);
+			path = "Bai Cao";
+			sourceTree = "<group>";
+		};
+		81CC962C28BB5516009A5862 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				81CC962D28BB5516009A5862 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		81CC963428BB5546009A5862 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				81CC963528BB5565009A5862 /* GameView.swift */,
+				81CC963728BB5577009A5862 /* HowToPlayView.swift */,
+				81CC963928BB55A2009A5862 /* LeaderBoardView.swift */,
+				8135DDC928BB603A00DCB57E /* LandingPageView.swift */,
+				8135DDC728BB573A00DCB57E /* LandingPage.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		81CC963B28BB55AD009A5862 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				81CC963E28BB55BD009A5862 /* PlaySound.swift */,
+				81CC963C28BB55B9009A5862 /* Modifiers.swift */,
+				81605AD428BCAD73009A0C0C /* AudioManager.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		81CC964228BB563B009A5862 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				81605AD628BCB6A5009A0C0C /* deal-card.mp3 */,
+				81605AD228BCAC55009A0C0C /* BGMusic.mp3 */,
+				81CC965328BB5659009A5862 /* bet-chip.mp3 */,
+				81CC965128BB5656009A5862 /* ring-up.mp3 */,
+				81CC964F28BB5654009A5862 /* drum-music.mp3 */,
+				81CC964B28BB564F009A5862 /* highscore.mp3 */,
+				81CC964928BB564C009A5862 /* gameover.mp3 */,
+				81CC964728BB564A009A5862 /* winning.mp3 */,
+				81605AD828BCBD67009A0C0C /* reshuffle-card.mp3 */,
+				81CC964528BB5647009A5862 /* blink.mp3 */,
+				81CC964328BB5643009A5862 /* spin.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81CC962228BB5516009A5862 /* Bai Cao */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81CC963128BB5516009A5862 /* Build configuration list for PBXNativeTarget "Bai Cao" */;
+			buildPhases = (
+				81CC961F28BB5516009A5862 /* Sources */,
+				81CC962028BB5516009A5862 /* Frameworks */,
+				81CC962128BB5516009A5862 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bai Cao";
+			productName = "Bai Cao";
+			productReference = 81CC962328BB5516009A5862 /* Bai Cao.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81CC961B28BB5516009A5862 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					81CC962228BB5516009A5862 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 81CC961E28BB5516009A5862 /* Build configuration list for PBXProject "Bai Cao" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81CC961A28BB5516009A5862;
+			productRefGroup = 81CC962428BB5516009A5862 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81CC962228BB5516009A5862 /* Bai Cao */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81CC962128BB5516009A5862 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81605AD928BCBD67009A0C0C /* reshuffle-card.mp3 in Resources */,
+				81605AD728BCB6A5009A0C0C /* deal-card.mp3 in Resources */,
+				81605AD328BCAC55009A0C0C /* BGMusic.mp3 in Resources */,
+				81CC962E28BB5516009A5862 /* Preview Assets.xcassets in Resources */,
+				81CC965228BB5656009A5862 /* ring-up.mp3 in Resources */,
+				81CC962B28BB5516009A5862 /* Assets.xcassets in Resources */,
+				81CC965028BB5654009A5862 /* drum-music.mp3 in Resources */,
+				81CC964A28BB564C009A5862 /* gameover.mp3 in Resources */,
+				81CC964C28BB564F009A5862 /* highscore.mp3 in Resources */,
+				81CC964428BB5643009A5862 /* spin.mp3 in Resources */,
+				81CC965428BB5659009A5862 /* bet-chip.mp3 in Resources */,
+				81CC964628BB5647009A5862 /* blink.mp3 in Resources */,
+				81CC964828BB564A009A5862 /* winning.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81CC961F28BB5516009A5862 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81CC963A28BB55A2009A5862 /* LeaderBoardView.swift in Sources */,
+				81CC963F28BB55BD009A5862 /* PlaySound.swift in Sources */,
+				81CC962928BB5516009A5862 /* ContentView.swift in Sources */,
+				81CC963828BB5577009A5862 /* HowToPlayView.swift in Sources */,
+				81CC963628BB5565009A5862 /* GameView.swift in Sources */,
+				81CC963D28BB55B9009A5862 /* Modifiers.swift in Sources */,
+				8135DDC828BB573A00DCB57E /* LandingPage.swift in Sources */,
+				8135DDCA28BB603A00DCB57E /* LandingPageView.swift in Sources */,
+				81605AD528BCAD73009A0C0C /* AudioManager.swift in Sources */,
+				81CC962728BB5516009A5862 /* Bai_CaoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		81CC962F28BB5516009A5862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81CC963028BB5516009A5862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81CC963228BB5516009A5862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bai Cao/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rmit.nhanvu.Bai-Cao";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81CC963328BB5516009A5862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bai Cao/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rmit.nhanvu.Bai-Cao";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81CC961E28BB5516009A5862 /* Build configuration list for PBXProject "Bai Cao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81CC962F28BB5516009A5862 /* Debug */,
+				81CC963028BB5516009A5862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81CC963128BB5516009A5862 /* Build configuration list for PBXNativeTarget "Bai Cao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81CC963228BB5516009A5862 /* Debug */,
+				81CC963328BB5516009A5862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81CC961B28BB5516009A5862 /* Project object */;
+}
